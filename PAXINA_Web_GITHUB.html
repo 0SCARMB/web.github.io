@@ -1,0 +1,49 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="estilo.css">
+    <title>LITERARUTA CSASTELLANA SÉCULO XX</title>
+</head>
+<body>
+    <h1>LITERARUTA CASTELLANA SÉCULO XX</h1>
+    <section id="juego">
+        <!-- El siguiente código se creará luego de forma dinámica por cada pregunta -->
+        <div class="contenedor-pregunta incorrecta" id="0">
+            <h2>1 - Cal destes autores non pertence á Xeración do 27?</h2>
+            <div class="opciones">
+                <label for="" id="l00">
+                    <input type="radio" name="p0" onclick="seleccionar(0,0)">
+                    <span>Federico García Lorca</span>
+                    <!-- Nos servirá para colocar el símbolo de acierto o no acierto-->
+                    <span id="p00"></span>
+                </label>
+                <label for="" id="l01">
+                    <input type="radio" name="p0" onclick="seleccionar(0,1)">
+                    <span>Luis Cernuda</span>
+                    <!-- Nos servirá para colocar el símbolo de acierto o no acierto-->
+                    <span id="p01"></span>
+                </label>
+                <label for="" id="l02">
+                    <input type="radio" name="p0" onclick="seleccionar(0,2)">
+                    <span>Pedro Salinas</span>
+                    <!-- Nos servirá para colocar el símbolo de acierto o no acierto-->
+                    <span id="p02"></span>
+                </label>
+                <label for="" id="l03">
+                    <input type="radio" name="p0" onclick="seleccionar(0,3)">
+                    <span>Valle-Inclán</span>
+                    <!-- Nos servirá para colocar el símbolo de acierto o no acierto-->
+                    <span id="p03"></span>
+                </label>
+            </div>
+        </div>       
+    </section>
+
+    <button id="corregir">Correxir</button>
+
+    <script src="app.js"></script>
+</body>
+</html>
