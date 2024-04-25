@@ -200,17 +200,3 @@ corregir.onclick = function(){
     h2.textContent = cantiCorrectas + " CORRECTAS - " + (10-cantiCorrectas) + " INCORRECTAS";
     document.getElementById("juego").appendChild(h2);
 }
-
-
-Error:
-//Mediante un for cargo todas las preguntas del JSON
-for(i=0;i < bd_juego.length;i++){
-    cargarPreguntas();
-    //actualizo el numero de pregunta actual
-    numPregunta++;
-}
-
-//Función que carga la opción elegida en el arreglo respuestas.
-function seleccionar(pos, opElegida){
-    respuestas[pos] = opElegida;
-}
